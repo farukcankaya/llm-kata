@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "llm-in-action-101"
+version = "0.1.0"
+description = ""
+authors = ["Faruk Cankaya <faruk.cankaya@trendyol.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+jupyter = "^1.0.0"
+scikit-learn = "^1.5.1"
+torch = "^2.3.1"
+matplotlib = "^3.9.1"
+openai = "^1.37.0"
+python-dotenv = "^1.0.1"
+pandas = "^2.2.2"
+tiktoken = "^0.7.0"
+
+[tool.poetry.group.dev.dependencies]
+gensim = "^4.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
